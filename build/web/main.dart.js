@@ -36461,7 +36461,7 @@ kL(a){return this.aiH(a)},
 aiH(a){var s=0,r=A.P(t.p2),q,p,o
 var $async$kL=A.L(function(b,c){if(b===1)return A.M(c,r)
 while(true)switch(s){case 0:s=3
-return A.S(A.atx(A.fv("https://backend-store-challenge.vercel.app/auth/register"),a.fK()),$async$kL)
+return A.S(A.atx(A.fv("https://backend-store-challenge.vercel.app/api/auth/register"),a.fK()),$async$kL)
 case 3:p=c
 o=p.b
 if(o===201){q=new A.Ib(B.cL.DM(A.ami(A.alW(p.e)).eR(p.w),null).h(0,"message"))
@@ -36473,7 +36473,7 @@ ym(a){return this.ai5(a)},
 ai5(a){var s=0,r=A.P(t.tx),q,p,o,n
 var $async$ym=A.L(function(b,c){if(b===1)return A.M(c,r)
 while(true)switch(s){case 0:s=3
-return A.S(A.atx(A.fv("https://backend-store-challenge.vercel.app/auth/login"),a.fK()),$async$ym)
+return A.S(A.atx(A.fv("https://backend-store-challenge.vercel.app/api/auth/login"),a.fK()),$async$ym)
 case 3:o=c
 n=o.b
 if(n===200){p=B.cL.DM(A.ami(A.alW(o.e)).eR(o.w),null)
