@@ -11,8 +11,8 @@ class LoginController with ChangeNotifier {
 
   int counter = 0;
   int idUser = 0;
-  TextEditingController ctrlEmailText = TextEditingController(text: 'wilmer@example.com');
-  TextEditingController ctrlPasswordText = TextEditingController(text: 'secreto123');
+  TextEditingController ctrlEmailText = TextEditingController(text: '');//wilmer@example.com
+  TextEditingController ctrlPasswordText = TextEditingController(text: '');//secreto123
 
   bool isVisibleIcon = false;
   bool _isValidating = false;

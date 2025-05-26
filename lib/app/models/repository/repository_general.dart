@@ -6,8 +6,8 @@ import 'package:app_market_challenge/app/models/response/register_user_response.
 import 'package:http/http.dart' as http;
 
 class RepositoryGeneral {
-  String routeDev = 'https://backend-store-challenge.vercel.app';//'http://localhost:3000/api/';
-  String routeQa = 'https://backend-store-challenge.vercel.app';
+  String routeDev = 'https://backend-store-challenge.vercel.app/';//'http://localhost:3000/api/';
+  String routeQa = 'https://backend-store-challenge.vercel.app/';
   String routeProd = '';
 
   Future<RegisterUserResponse> registerUser(RegisterUserRequest request) async {
